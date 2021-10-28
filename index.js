@@ -54,7 +54,8 @@ const tableOfContents = [
     'License',
     'Contributing',
     'Tests',
-    'Questions'
+    'Questions',
+    'Links',
 ]
 
 tableOfContents.forEach((item, index) => {
@@ -81,6 +82,9 @@ function mdWriter(responses) {
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
+* [Links](#links)
+
+
 ## Description
 ${responses.Description}
 
@@ -103,7 +107,12 @@ ${responses.Tests}
 
 ## Questions
 Any Feedback or questions?
-Please, send any question to my e-mail [${responses.Questions}](mailto:${responses.Questions}) and/or visit my profile on [Github](https://github.com/${responses.username})`
+Please, send any question to my e-mail [${responses.Questions}](mailto:${responses.Questions}) and/or visit my profile on [Github](https://github.com/${responses.username})
+
+## Links
+Link to Demo can be found here: 
+`
+
 }
 
 
@@ -113,7 +122,7 @@ async function init() {
         await asyncWrite(`${responses.Title}.md`, mdWriter(responses))
         console.log(`${responses.Title}.md  was successfully generated`);
 
-    catch (err) {
+    }catch(err) {
         console.log(err)
     }
 }
