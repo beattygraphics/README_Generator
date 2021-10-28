@@ -2,11 +2,11 @@
 const badges = value => {
   switch (value) {
     case "MIT":
-      return './assets/badges/license-MIT-blue.svg';
+      return '/assets/badges/license-MIT-blue.svg';
     case "APACHE 2.0":
-      return './assets/badges/apache-2.0.svg';
+      return '/assets/badges/apache-2.0.svg';
     case "PERL":
-      return './assets/badges/Perl 5.10.svg';
+      return '/assets/badges/Perl 5.10.svg';
     default:
       return "";
   }
@@ -24,6 +24,6 @@ const license = value => {
     default:
       return "";
   }
-});
+};
 
 module.exports = generateMarkdown;

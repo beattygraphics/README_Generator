@@ -25,7 +25,7 @@ const questions = [
     {
         message: "Select your License Type",
         type: "list",
-        choices: ["GPL V3", "MIT", "MPL V2", "None"]
+        choices: ["APACHE 2.0", "MIT", "PERL", "None"]
     },
     {
         message: "Contribution and Colaboration guidelines",
@@ -61,6 +61,7 @@ const tableOfContents = [
 tableOfContents.forEach((item, index) => {
     questions[index].name = item
 })
+
 //Licenses Badges
 const licenses = {
     "APACHE 2.0": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
@@ -72,7 +73,7 @@ const licenses = {
 
 // function to write README markdown
 function mdWriter(responses) {
-    return `${responses.Title}'
+    return `${responses.Title}
 
 # ${responses.Title}
 * [Description](#description)
@@ -110,7 +111,10 @@ Any Feedback or questions?
 Please, send any question to my e-mail [${responses.Questions}](mailto:${responses.Questions}) and/or visit my profile on [Github](https://github.com/${responses.username})
 
 ## Links
-Link to Demo can be found here: (![Link](/assets/readme_demo.mov))`
+Link to Demo can be found here: (https://youtu.be/vF13yRexgjM)
+
+(![Screenshot](/assets/readme_screenshot.png)
+)`
 
 }
 

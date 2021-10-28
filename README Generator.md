@@ -1,6 +1,6 @@
-READEME Generator'
+README Generator
 
-# READEME Generator
+# README Generator
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -12,11 +12,11 @@ READEME Generator'
 
 
 ## Description
-The README generator creates a fast and effienecnt way to create README documentation
+The README generator creates a fast and efficient way to create README documentation
 
 
 ## Installation
-The README generator creates a fast and effienecnt way to create README documentation
+npm install, the run node .js from the command prompt or terminal
 
 
 ## Usage
@@ -24,7 +24,7 @@ To save time creating README documentation, giving me more time to focus on the 
 
 
 ## Contributing
-Feel free to conect on GitHub, make a close of the work, request reviews and get noted in the README!
+Feel free to connect on GitHub, make a close of the work, request reviews and get noted in the README!
 
 
 ## Tests
@@ -37,3 +37,6 @@ Please, send any question to my e-mail [erin.beatty7@att.net](mailto:erin.beatty
 
 ## Links
 Link to Demo can be found here: (https://youtu.be/vF13yRexgjM)
+
+(![Screenshot](/assets/readme_screenshot.png)
+)
