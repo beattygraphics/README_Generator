@@ -24,50 +24,6 @@ const license = value => {
     default:
       return "";
   }
-};
-
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# 
-# ${data.title}
-
-
-## Description
-${data.description}
-
-
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributors](#contributors)
-* [Tests](#tests)
-* [Contact Information](#contact-information)
-## Installation
-As a user, you will need to install the following packages: ${data.installation}
-## Usage
-${data.usage}
-
-
-## License
-${licenseFieldText(data.license, data.name)}
-
-
-## Contributors
-${data.contributors}
-
-
-## Tests
-In order to test this program, use the following command: 
-<code>${data.tests}</code>
-
-
-## Contact Information
-* ${data.name}
-  * GitHub Profile: https://github.com/${data.username}
-  * Please email me with any questions here: ${data.email}`;
-  }
-};
+});
 
 module.exports = generateMarkdown;

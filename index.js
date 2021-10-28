@@ -110,8 +110,7 @@ Any Feedback or questions?
 Please, send any question to my e-mail [${responses.Questions}](mailto:${responses.Questions}) and/or visit my profile on [Github](https://github.com/${responses.username})
 
 ## Links
-Link to Demo can be found here: 
-`
+Link to Demo can be found here: (![Link](/assets/readme_demo.mov))`
 
 }
 
